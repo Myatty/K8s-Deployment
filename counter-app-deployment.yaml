@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: counter-app-deployment
+  name: counter-app-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: counter-app-deployment
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: counter-app-deployment
+    spec:
+      containers:
+      - image: registry.gitlab.com/myatty1/microservice/counter-app/counter-app:5246a970
+        name: counter-app
+        resources: {}
+status: {}
