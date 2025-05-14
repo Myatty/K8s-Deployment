@@ -18,7 +18,7 @@ spec:
         app: todo-app-deployment
     spec:
       containers:
-      - image: registry.gitlab.com/myatty1/microservice/todo-app/todo-app:5246a97022cb195823c57cc60003b886e82f52f8
-        name: todo-app
-        resources: {}
+        - image: registry.gitlab.com/myatty1/microservice/todo-app/todo-app:3780da41
+          name: todo-app
+          resources: {}
 status: {}
