@@ -18,7 +18,7 @@ spec:
         app: counter-app-deployment
     spec:
       containers:
-        - image: registry.gitlab.com/myatty1/microservice/counter-app/counter-app:3780da41
+        - image: registry.gitlab.com/myatty1/microservice/counter-app/counter-app:dff0b8b7
           name: counter-app
           resources: {}
 status: {}
