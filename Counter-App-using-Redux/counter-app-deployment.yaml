@@ -21,4 +21,6 @@ spec:
         - image: registry.gitlab.com/myatty1/microservice/counter-app/counter-app:6c254e4c
           name: counter-app
           resources: {}
+      imagePullSecrets:
+        - name: gitlab-regcr
 status: {}

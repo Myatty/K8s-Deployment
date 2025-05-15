@@ -21,4 +21,6 @@ spec:
         - image: registry.gitlab.com/myatty1/microservice/todo-app/todo-app:4b47cda6
           name: todo-app
           resources: {}
+      imagePullSecrets:
+        - name: gitlab-regcr
 status: {}
