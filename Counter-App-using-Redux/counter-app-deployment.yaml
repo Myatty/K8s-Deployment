@@ -22,5 +22,5 @@ spec:
           name: counter-app
           resources: {}
       imagePullSecrets:
-        - name: gitlab-regcr
+        - name: gitlab-regcred
 status: {}
