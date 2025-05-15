@@ -18,7 +18,7 @@ spec:
         app: todo-app-deployment
     spec:
       containers:
-        - image: registry.gitlab.com/myatty1/microservice/todo-app/todo-app:4b47cda6
+        - image: registry.gitlab.com/myatty1/microservice/todo-app/todo-app:13a0ac10
           name: todo-app
           resources: {}
       imagePullSecrets:
